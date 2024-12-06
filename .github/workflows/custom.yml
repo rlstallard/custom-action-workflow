@@ -1,0 +1,11 @@
+name: Custom
+
+on: [push]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: rlstallard/custom-action@main
+      
